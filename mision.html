@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gimnasio Lomas del Valle</title>
+    <link rel="stylesheet" href="Css/style.css">
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">  
+</head>
+<style>
+    .navbar{
+        padding: 30px;
+        margin-bottom: 0px;
+        background-color: #004ba0;   
+        color: white;     
+    }
+
+    .nombre{
+        font-family: 'Berkshire Swash', cursive;
+        color: white;
+    }
+    .footer{
+        width:100%;
+        height: 70px;
+        background-color: #444d57;
+        color:white;
+        position: absolute;
+        bottom: 0px;
+        padding: 10px 0 10px 10px;
+    }
+
+    .thumbnail{
+        -webkit-box-shadow: 5px 5px 12px 0px #000000; 
+        box-shadow: 5px 5px 12px 0px #000000;
+    }
+
+    .lnk{
+        font-size: 20px;
+    }
+
+</style>
+<body>
+        <header>
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="buton" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a href="index.html" class="navbar-brand"> <span class="nombre">Gimnasio<br>Lomas del valle</span> </a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#" class="active lnk">Inicio</a></li>
+                                <!--<li><a href="#" class="lnk">Acerca de nosotros</a></li>-->
+        
+                                <li class="dropdown lnk">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Nosotros
+                                        <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Misión</a></li>
+                                            <li><a href="vision.html">Visión</a></li>
+                                            <li><a href="filosofia.html">Filosofia</a></li>
+                                        </ul>
+                                </li>
+                                
+                                <li class="dropdown lnk">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Servicios<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="alimentacion.html">Alimentacion</a></li>
+                                        <li><a href="rutasEscolares.html">Rutas escolares</a></li>
+                                    </ul>
+                                </li>
+        
+                                <li><a href="#" class="lnk">Nuestras instalaciones</a></li>
+                                
+                                <li><a href="#" class="lnk">Admisiones</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+   
+    <section>
+        <div class="container-fluid tituloPrincipal text-center">
+            <h1>MISIÓN</h1>
+        </div>
+        <div class="container contenidoPrincipal">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="IMG/graduation.jpg" alt="imgAlumno" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                        <p style="margin-top:30px;">Contribuir al desarrollo integral de nuestros estudiantes, formándolos en y para la vida, dotándolos de herramientas para lograr que sean personas autónomas, libres, felices con independencia, en la dirección y ejecución de sus propios actos, formándolos en todos los ámbitos del ser humano.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+  
+    <footer  class="container-fluid footer">
+        <strong>By Sinapsissoft </strong><br>
+        <strong>Developer William Armando Forero Bermeo</strong><br>
+        <strong>Copyright 2017</strong>
+    </footer>
+  
+    
+</body>
+</html>
